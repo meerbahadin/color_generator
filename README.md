@@ -1,4 +1,4 @@
-# sIMPLE COLOR GENERATOR / PICKER 
+# SIMPLE COLOR GENERATOR / PICKER 
 <a href="shorturl.at/xyFV8">Click here for the demo</a>
 <br>
 clone and use it on your on project 
