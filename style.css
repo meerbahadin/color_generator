@@ -1,0 +1,156 @@
+body {
+    background: #050618;
+    color: white;
+    font-weight: 300;
+    height: 100vh;
+    font-family: Helvetica neue, roboto;
+    overflow: auto;
+}
+
+.container {
+    max-width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(86, 151, 255);
+}
+
+.main {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.warning {
+    font-size: 15px;
+    color: #fafafa;
+    background: rgb(27, 16, 56);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+h1 {
+    font-weight: 200;
+    font-style: 26px;
+    margin: 10px;
+}
+
+button {
+    background: linear-gradient(270deg, #e22363, #7f59e9);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 2s ease infinite;
+    -moz-animation: AnimationName 2s ease infinite;
+    color: white;
+    animation: AnimationName 2s ease infinite;
+    padding: 20px 25px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+button:hover {
+    color: white;
+    font-size: 13px;
+}
+
+.colors {
+    margin-top: 40px;
+}
+
+.box {
+    background: rgb(211, 58, 58);
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+.box p {
+    margin-left: 20px;
+    background-image: linear-gradient(to right,
+            white,
+            rgba(255, 255, 255, 0.534));
+    border-radius: 3px;
+    color: black;
+    padding: 2px;
+    letter-spacing: 1px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.notfication {
+    background: rgba(0, 0, 0, 0.849);
+    padding: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 66% 0%;
+    }
+
+    50% {
+        background-position: 35% 100%;
+    }
+
+    100% {
+        background-position: 66% 0%;
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 66% 0%;
+    }
+
+    50% {
+        background-position: 35% 100%;
+    }
+
+    100% {
+        background-position: 66% 0%;
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 66% 0%;
+    }
+
+    50% {
+        background-position: 35% 100%;
+    }
+
+    100% {
+        background-position: 66% 0%;
+    }
+}
